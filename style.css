@@ -11,8 +11,6 @@ body {
   background-color: #000000;
 }
 
-
-
 .signUp form {
   margin: 35px auto;
   background-color:;
@@ -34,48 +32,19 @@ body {
   color: white;
 }
 
-.jumbotron h1{
-  margin-top: 10px;
-  margin-left: 200px;
-  font-size: 70px;
-  color: #fdd701;
-}
-
-.jumbotron a {
-  margin-left: 500px;
-  font-size: 25px;
-}
-
-.jumbotron p {
-  margin-left: 500px;
-  font-size: 25px;
-}
-
 /*skills container*/
- 
 #page-section-skills {
-  height: 600px;
+  width: cover;
+
 }
 
-#page-section-skills img {
-  margin-left: 400px;
-  width: 500px;
-  margin-top: 50px;
-  margin-right: 40px;
-}
-
-#page-section-skills div p {
-  margin-left: 900px;
-  margin-top: 110px;
-  padding-left: 100px;
-  width: 500px;
-  text-align: justify;
-}
 
 /* Portifolio container*/
 #page-section-work {
+  width: 100%;
   margin-top: 100px;
   background-color: #ffd701;
+  background-size: cover;
  }
 
 .cardContainer {
@@ -83,10 +52,10 @@ body {
 }
 .card {
   margin: 0 auto;
-  background-color: white;
+  background-color: black;
   display: flex;
   align-items: center;
-  align-content: ;
+  align-content: center;
 
 }
 
@@ -95,41 +64,19 @@ body {
 }
 
 /* typo  */
-h1 {
-  color: #ffd701;
-  font-size: 40px;
-  margin: 15px;
-  margin-top: 100px;
-  margin-bottom: 80px;
-  padding-left: 100px;
-  text-align: left;
-  align-content: left;
- 
-}
 
-h2 {
-  color: whitesmoke;
-  font-size: 40px;
+h1 {
+  color: white;
   margin-left: 100px;
-  margin-bottom: 20px;
-  text-align: left;
+  margin-bottom: 50px;
+  padding: 50px;
+  
 }
 
 h3 {
-  color: darkslategray;
-  font-size: 25px;
-  font-weight: bold;
+  color: white;
 }
-
 p {
-  color: gray;
-  font-size: 25px;
-  margin-left: 10px;
-  margin-top: 10px;
-  text-align: left;
+  color: white;
 }
-
-.my-4 {
-  background-color: white;
-  max-whidt: 600px;
-}
+]
