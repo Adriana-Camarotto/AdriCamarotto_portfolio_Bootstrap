@@ -46,6 +46,9 @@ Finally, To acess all my works the users can use the Github button on the home p
 - Responsive design.
 - How to use bootstrap 5.
 - How to style bootstrap using CSS.
+- Customize Bootstrap Components.
+- Code a one-page website based on a prompt.
+
 
 
 ---
