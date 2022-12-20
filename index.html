@@ -14,9 +14,10 @@
 </head>
 <body>
    <!--start of navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark shadow-lg bg-dark">
     <a class="navbar-brand"><img src="./images/AdriCamarotto_avatar_profile.png"></a>
     <a class="navbar-brand" href="#">Adri Camarotto</a>
+    <a class="btn btn-primary" href="./images/CV Adriana Camarotto.pdf" target="_blank" role="button">Resume</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -24,12 +25,20 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#">Home</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">About me</a>
+    </li>
+    <li class="nav-item active">
       <a class="nav-link" href="#">Skills</a>
     </li>
-    <li class="nav-item dropdown">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Work</a>
+    </li>
+    
+
+    <li class="nav-item dropdown active">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Social Medias
       </a>
@@ -38,11 +47,9 @@
         <a class="dropdown-item" href="https://www.instagram.com/adri.camarotto/" target="_blank">Instagram</a>
         <div class="dropdown-divider"></div>
         <a class="dropdown-item" href="https://www.linkedin.com/in/adriana-camarotto/" target="_blank">Linkedin</a>
-      </div>
+      </div>      
     </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Resume soon</a>
-    </li>
+  
   </ul>
 
   <!-- Search form to be implemented in the future-->
@@ -53,33 +60,80 @@
   </div>
   </nav> <!--end of navibar-->
 
-    <!--Start of jumbotron-->
-    <div class="jumbotron">
-        <h1 class="display-4">Hello! I`m Adriana Camarotto</h1>
-        <p class="lead">Front End Web Developer</p>
+    <!--Start of jumbotron/home section-->
+    <section class="home" id="home">
+      <div class="jumbotron">
+        <div class="row  min-vh-100"> 
 
-        <hr class="my-4"> 
-        <p>You can check out other projects i've developed at my <strong>Github</strong>!</p>
-        <a class="btn btn-primary" href="https://github.com/Adriana-Camarotto" target="_blank" role="button">Github</a>
-    </div>
-    <!--end of jumbotron-->
+          <div class="cardContainer col-sm-12 col-md-6 col-lg-6"> <!--this difine the size of the cards inside of the container on diferent sizes of screens (responsive)-->
+            <div class="home-text  ">
+              <h1 class="display-4">Hello! I`m</h1>
+              <p class="lead">Front End Developer</p>
+              <h2 class="text-uppercase"><strong>Adri Camarotto</strong> </h2>
+              <hr class="my-4"> 
+              <p>Check out my relevants projects</p>
+              <a class="btn btn-primary" href="https://github.com/Adriana-Camarotto" target="_blank" role="button">Github</a>
+            </div>
+          </div>
+            
+          <div class="cardContainer col-sm-12 col-md-6 col-lg-6"> <!--this difine the size of the cards inside of the container on diferent sizes of screens (responsive)-->
+            <div class="home-img text-center">
+              <img src="./images/Adri_profile_img.png" class="rounded-circle" alt="Adriana Camarotto profile img">
+            </div>
+          </div>
+          <hr class="my-4"> 
+        </div>
+      </div>        
+    </section>
+    <!--end of jumbotron/home section-->
+
+    <!--Start of About me section-->
+    <section class="About-me " id="About-me">
+      <div class="container-lg">
+        <div class="row">      
+            
+          <div class="cardContainer col-lg-6"> <!--this difine the size of the cards inside of the container on diferent sizes of screens (responsive)-->
+            <div class="home-img text-center">
+              <img src="./images/Adri_aboutme_img.jpg"  alt="Adriana Camarotto img">
+            </div>
+          </div>
+         
+          <div class="cardContainer col-sm-12 col-md-6 col-lg-6"> <!--this difine the size of the cards inside of the container on diferent sizes of screens (responsive)-->
+            <div class="home-text text-justify">
+              <h1 class="fw-bold mb-5">About me</h1>
+              <p>Hello! As a passionate about technology, I started my first steps studying logic programming during the civil engineering degree, which for many reasons I did not take forward.</p>
+              <p>Years later, I went to university to do a business degree, and after it and I undertook in a start-up for five years. During this process I had a daughter, also passionate about technology. To help her, I ended up mentoring several teams for three years of the Technovation Challenge - a worldwide programming challenge for girls - even without knowing how to program, but with a good business knowledge.  And I was so proud of all my teams in special because those girls were coding and one of the team in 2018 was the South American Champion of the Techovantion Challenge!</p>
+              <p>Well, well time flies and after immigrating to the UK, working in various areas, venturing into digital marketing, mentoring women's business, I ended up missing this wonderful world of technology and here I am starting my journey in programming with the aim of becoming a front end developer. And I can tell you that I'm loving putting my hand in the dough!</p>
+              
+              <hr class="my-4"> 
+              <p>To access my resume click here:</p>
+              <a class="btn btn-primary" href="./images/CV Adriana Camarotto.pdf" target="_blank" role="button">Resume</a>
+            </div>
+          </div>
+        </div>       
+      </div>
+       
+    </section>
+    <!--end of About me section-->
+-->
 
      <!-- start of Skills container -->
-     <section id="page-section-skills" class="skillsGrid">
-      <h1>My Skills</h1>
+     <section id="Skills" class="skillsGrid py-5">
+      <h1>Skills</h1>
 
       <!--start of Containers and rows whit cards-->
-      <div class="container-fluid">
-        
-        <div class="row">
+      <div class="container-fluid"></div>>
+        <div class="row bg-primary min-vh-100 align-content-center">
           
-          <div class="cardContainer col-sm-12 col-md-4 col-lg-4"> <!--this difine the size of the cards inside of the container-->
+          
+          <div class="cardContainer col-sm-12 col-md-3 col-lg-3">
+
             <div class="card" style="width: 18rem">
               <img src="./images/skills_icons.png" class="card-img-top" alt="skills icons">
             </div>
           </div>
 
-          <div class="cardContainer col-sm-12 col-md-4 col-lg-4"> <!--this difine the size of the cards inside of the container-->
+          <div class="cardContainer col-sm-12 col-md-3 col-lg-3"> 
             <div class="card" style="width: 18rem">
               <div class="card-body">
                 <h3 class="card-title">About my jorney</h3>
@@ -93,7 +147,7 @@
           <div class="cardContainer col-sm-12 col-md-12 col-lg-12">
             <div class="card" style="width: 18rem">
               
-              <a href="https://www.linkedin.com/in/adriana-camarotto/" class="btn btn-primary">follow me on Linkedin</a>
+              <a href="https://www.linkedin.com/in/adriana-camarotto/" target="_blank" class="btn btn-primary">Follow me on Linkedin</a>
             </div>
           </div>
               
@@ -106,12 +160,12 @@
         <!--end of Skills container-->
 
         <!-- Start of portfolio container -->
-    <section id="page-section-work" class="workGrid">
+    <section id="page-section-work" class="workGrid py-5">
       <h1>Work</h1>
       
       <!--start of Containers and rows whit cards-->
       <div class="container-fluid">
-        <div class="row">
+        <div class="row py-5">
           <div class="cardContainer col-sm-12 col-md-3 col-sm-12"> <!--this difine the size of the cards inside of the container-->
             <div class="card" style="width: 18rem;">
               <img src="..." class="card-img-top" alt="...">

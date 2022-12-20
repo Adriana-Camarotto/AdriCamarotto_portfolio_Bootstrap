@@ -11,12 +11,7 @@ body {
   background-color: #000000;
 }
 
-.signUp form {
-  margin: 35px auto;
-  background-color:;
-  padding: 25px;
-  border-radius: 7px;
-}
+/*navbar*/
 
 .navbar-nav {
   margin-left: auto;
@@ -24,59 +19,75 @@ body {
   
 }
 
+/*home section*/
+
 .jumbotron {
-  background-image: url('./images/R.png');
+  background-image: url('./images/cool-website-background-23-920x518.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 300px);
-  color: white;
+ 
 }
 
+.home-text {
+  padding-top: 200px;
+  padding-left: 250px;  
+}
+
+.home-img {
+  padding-top: 100px;
+ 
+}
+
+.btn {
+  margin-left: 150px;
+}
+
+/* About me section  */
+.About-me {
+  margin-right: 150px;
+  ;
+}
+
+.About-me img {
+
+}
 /*skills container*/
 #page-section-skills {
-  width: cover;
-
+  margin: 20px;
 }
 
 
 /* Portifolio container*/
 #page-section-work {
-  width: 100%;
   margin-top: 100px;
   background-color: #ffd701;
   background-size: cover;
- }
+  margin: 20px;
+  }
 
-.cardContainer {
-  margin-bottom: 30px;
-}
+
 .card {
   margin: 0 auto;
   background-color: black;
-  display: flex;
   align-items: center;
   align-content: center;
+  margin-bottom: 25px;
+  
 
 }
 
 #page-section-work h1 {
-  color: black;
+  color: white;
 }
 
 /* typo  */
 
-h1 {
-  color: white;
-  margin-left: 100px;
-  margin-bottom: 50px;
-  padding: 50px;
-  
-}
+h1, h2, h3, p {
+ color: white;
 
-h3 {
-  color: white;
 }
-p {
-  color: white;
-}
-]
+ 
+
+
+
+
