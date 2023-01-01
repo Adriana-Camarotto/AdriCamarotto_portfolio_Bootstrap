@@ -199,3 +199,17 @@ h2 {
 p {
   font-size: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  #container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 200%;
+  }
+
+  .skilss_Icon {
+    width: 50px;
+  }
+}
