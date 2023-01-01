@@ -156,14 +156,16 @@ body {
 
 .portfolio h1 {
   color: white;
-  
+  font-size: 70px;
   padding: 20px;
 }
 
 
 /* Contact section  */
 
-
+.contact-me h1{
+  color: #ffd701;
+}
 
 /* footer  */
 
