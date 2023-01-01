@@ -201,72 +201,56 @@ p {
     width: 90%;
   }
 
-  h1 {
-    font-size: 200%;
-  }
-
-  .skilss_Icon {
-    width: 20px;
-  }
-
+  
   /* About me section  */
-.about-me {
-  margin-right: 30px;
-  margin-left: 40px;
- }
-
-.btn {
-  margin-left: 10px;
-}
-
-.about-me h1 {
-  font-size: 70px;
-  color: #ffd701;
+  .about-me {
+    margin-right: 30px;
+    margin-left: 40px;
   }
 
-.about-me p {
-  margin-left: 10px;
-  font-size: 20px;
-  color: white;
-
-}
-.about-me img {
-  width: 520px;
+  .btn {
+    margin-left: 10px;
   }
+
+  .about-me h1 {
+    font-size: 70px;
+    color: #ffd701;
+    }
+
+  .about-me p {
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+
+  }
+  .about-me img {
+    width: 520px;
+  } 
 
   /*skills container*/
 
-.cardContainer { 
-  margin-left: 0;
-  margin-right: 50px;
-}
-
-.skills_Icon img {
-  width: 150px;
-  margin: 60px;
+ .skills_Icon img {
+    width: 150px;
+    padding-right: 40px;
   
-}
 
-.skills h1 {
-  color: #ffd701;
-  font-size: 70px;
   }
-  
+
+  .skills h1 {
+    color: #ffd701;
+    font-size: 70px;
+  }
+    
   .skills h2 {
     color: white;
     font-size: 40px;
-    margin-left: 90px;
-    }
-
-  .skills p {
-    font-size: 20px;
-    margin-left: 90px;
-    margin-right: 30px;
-
+  
   }
 
-.skills .btn {
-  margin-left: 90px;
-}
+  .skills p {
+      font-size: 20px;
+  }
+
+ 
 
 }
