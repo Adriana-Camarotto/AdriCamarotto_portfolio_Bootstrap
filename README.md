@@ -29,7 +29,7 @@ Finally, To acess all my works the users can use the Github button on the home p
 ![preview](./images/Screenshot%202023-01-01%20183328.png)
 ## Link
 
-[Click here to acsess:](https://adriana-camarotto.github.io/AdriCamarotto_portfolio_Bootstrap/)
+[Click here to access!](https://adriana-camarotto.github.io/AdriCamarotto_portfolio_Bootstrap/)
 
 ---
 
