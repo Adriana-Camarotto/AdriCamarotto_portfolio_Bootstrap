@@ -14,7 +14,7 @@ N/A
 
 ## Usage
 
-It is possible to use the navigation bar at the top of the website to acess links to main sections, like home, my skills and work section.
+It is possible to use the navigation bar at the top of the website to access links to main sections, like home, my skills and work section.
 
 Users can also acess the dropdown button in the nav bar, which will take them to my social medias to know me better.
 
